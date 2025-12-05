@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product Details — RedStore</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- header-->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><img src="images/logo.png" alt="logo" width="140"></a>
+      <nav class="main-nav">
+        <button id="menuToggle3" class="menu-btn" aria-expanded="false"><i class="fa fa-bars"></i></button>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="account.html">Account</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions"><a href="cart.html"><img src="images/cart.png" alt="cart" width="28"></a></div>
+    </div>
+  </header>
+
+  <main class="container single-product">
+    <div class="product-grid-2">
+      <div class="gallery">
+        <img id="ProductImg" src="images/gallery-1.jpg" alt="product main">
+        <div class="thumbs">
+          <img class="thumb" src="images/gallery-1.jpg" alt="">
+          <img class="thumb" src="images/gallery-2.jpg" alt="">
+          <img class="thumb" src="images/gallery-3.jpg" alt="">
+          <img class="thumb" src="images/gallery-4.jpg" alt="">
+        </div>
+      </div>
+      <div class="product-info">
+        <p class="muted">Home / T-Shirt</p>
+        <h1>Red Printed Tshirt by HRX</h1>
+        <div class="price">₹699</div>
+
+        <label for="size">Select Size</label>
+        <select id="size">
+          <option>Choose a size</option>
+          <option>XXL</option><option>XL</option><option>Large</option><option>Medium</option><option>Small</option>
+        </select>
+
+        <div class="actions">
+          <input type="number" id="qty" min="1" value="1" />
+          <a href="cart.html" class="btn">Add To Cart</a>
+        </div>
+
+        <h3>PRODUCT DETAILS <i class="fa fa-indent"></i></h3>
+        <p>Give your summer wardrobe a style upgrade with the HRX Men's Active T-shirt. Team it with shorts or denims for casual looks.</p>
+      </div>
+    </div>
+
+    <section class="related">
+      <h2 class="section-title">Related Products</h2>
+      <div class="product-grid">
+        <!-- product cards -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <!-- footer-->
+    <div class="container footer-grid">
+      <div>
+        <h3>Download Our App</h3>
+        <p>Download App for Android and iOS mobile phone.</p>
+        <div class="app-logos"><img src="images/play-store.png" alt=""><img src="images/app-store.png" alt=""></div>
+      </div>
+      <div class="center">
+        <img src="images/logo-white.png" alt="">
+        <p class="muted">Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.</p>
+      </div>
+      <div>
+        <h3>Useful Links</h3>
+        <ul class="footer-links"><li>Coupons</li><li>Blog Post</li><li>Return Policy</li><li>Join Affiliate</li></ul>
+      </div>
+      <div>
+        <h3>Follow Us</h3>
+        <ul class="footer-links"><li>Facebook</li><li>Twitter</li><li>Instagram</li><li>YouTube</li></ul>
+      </div>
+    </div>
+    <div class="copyright"><hr><p><a href="#">Copyright 2023 - Easy Tutorials</a></p></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

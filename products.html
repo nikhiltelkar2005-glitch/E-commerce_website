@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>All Products — RedStore</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><img src="images/logo.png" alt="logo" width="140"></a>
+      <nav class="main-nav">
+        <button id="menuToggle2" class="menu-btn" aria-expanded="false" aria-controls="primaryMenu2"><i class="fa fa-bars"></i></button>
+        <ul id="primaryMenu2" class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="account.html">Account</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions"><a href="cart.html"><img src="images/cart.png" alt="cart" width="28"></a></div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="row-2">
+      <h1>All Products</h1>
+      <div class="select-wrap">
+        <label for="sort" class="sr-only">Sort</label>
+        <select id="sort"><option>Default Sorting</option><option>Sort by price</option><option>Sort by popularity</option></select>
+      </div>
+    </div>
+
+    <section class="product-grid">
+      <!-- product cart -->
+      <article class="product-card">
+        <a href="product-details.html"><img src="images/product-1.jpg" alt=""></a>
+        <h3><a href="product-details.html">Red Printed T-Shirt</a></h3>
+        <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></div>
+        <div class="price">₹699</div>
+      </article>
+    </section>
+
+    <div class="pagination">
+      <button class="page">1</button>
+      <button class="page">2</button>
+      <button class="page">3</button>
+      <button class="page">></button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Download Our App</h3>
+        <p>Download App for Android and iOS mobile phone.</p>
+        <div class="app-logos"><img src="images/play-store.png" alt=""><img src="images/app-store.png" alt=""></div>
+      </div>
+      <div class="center">
+        <img src="images/logo-white.png" alt="">
+        <p class="muted">Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.</p>
+      </div>
+      <div>
+        <h3>Useful Links</h3>
+        <ul class="footer-links"><li>Coupons</li><li>Blog Post</li><li>Return Policy</li><li>Join Affiliate</li></ul>
+      </div>
+      <div>
+        <h3>Follow Us</h3>
+        <ul class="footer-links"><li>Facebook</li><li>Twitter</li><li>Instagram</li><li>YouTube</li></ul>
+      </div>
+    </div>
+    <div class="copyright"><hr><p><a href="#">Copyright 2023 - Easy Tutorials</a></p></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
